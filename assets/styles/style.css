@@ -1,0 +1,95 @@
+input {
+    text-align: center;
+}
+
+.background {
+    padding: 5px;
+    padding-bottom: 500px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100vw;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+tr:not(tr:last-child):after {
+    content: "";
+    width: 100%;
+    border: 2px solid black;
+}
+
+th {
+    width: 100%;
+    text-align: center;
+}
+
+tbody td {
+    border: none;
+}
+
+thead > tr > th:first-child {
+    display: none;    
+}
+
+thead th {
+    border: none;
+}
+
+thead {
+    border-bottom: 1px solid grey;
+}
+
+thead > tr > th,
+tbody > tr > td {
+    width: 49%;
+    padding: 0;
+    margin: auto;
+}
+
+.first-to-finish__group {
+    text-align: center;
+}
+
+tfoot {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}
+
+tfoot > tr  {
+    display: flex;
+    justify-content: space-between
+}
+
+tfoot > tr > td {
+    width: 49%;
+    height: 2rem;;
+}
+
+.doubled {
+    background-color: rgb(254, 125, 125);
+    border: 2px solid red;
+}
+
+.first-to-finish__group > .player-name {
+    display: inline;
+}
+
+.round-action .btn {
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 991px) {
+    /* th, td {
+        padding: 0 !important;
+    } */
+}

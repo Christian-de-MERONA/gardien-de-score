@@ -1,0 +1,39 @@
+{
+    "skyjoGame": {
+        "latestGame": "game-20240115",
+        "games": {
+            "game-20240115": {
+                "players": [
+                    "chris",
+                    "emeline"
+                ],
+                "rounds": {
+                    "1": {
+                        "chris": {
+                            "firstToFinish": true,
+                            "score": 5
+                        },
+                        "emeline" : {
+                            "firstToFinish": false,
+                            "score": 2
+                        }
+                    },
+                    "2": {
+                        "chris": {
+                            "firstToFinish": false,
+                            "score": 10
+                        },
+                        "emeline": {
+                            "firstToFinish": true,
+                            "score": 2
+                        }
+                    }
+                },
+                "totals": {
+                    "chris": 20,
+                    "emeline": 4
+                }
+            }
+        }
+    }
+}
